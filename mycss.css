@@ -1,0 +1,14 @@
+body {
+	background-image: url(img/john-schnobrich-510629-unsplash.jpg);
+	background-size:     cover;
+    background-repeat:   no-repeat;
+    /*background-position: center center;*/
+    color: black;
+    margin-left: 10%;
+	margin-right: 10%;
+}
+
+.text {
+	margin-left: 5%;
+	margin-top: 35%;
+}
