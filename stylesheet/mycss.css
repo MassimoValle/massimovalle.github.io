@@ -3,21 +3,38 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
-.top_space {
-	margin-top: 0%;
+.banner {
+	background-image: url("../img/banner.jpg");
+	background-repeat: no-repeat;
+  	background-attachment: fixed; 
+	background-size: cover;
+
+	height: 100%;
 }
 
-.first_row {
-	background-color: #E6E6E6;
+.livingBG {
+	background-image: url("../img/milan.jpg");
+	background-repeat: no-repeat;
+  	background-attachment: fixed; 
+	background-size: cover;
+
+	height: 100%;
 }
 
-.second_row {
+.studentBG {
+	/*background-color: #E6E6E6;*/
+
+	height: 100%;
+}
+
+.contactme {
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
 
-h1 {
-	margin-top: 45%;
+.textInMiddle {
+	margin-top: 60%;
+	text-align: center;
 }
 
 li {
