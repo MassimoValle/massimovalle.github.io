@@ -12,17 +12,17 @@ body {
 	height: 100%;
 }
 
+.studentBG {
+	/*background-color: #E6E6E6;*/
+
+	height: 100%;
+}
+
 .livingBG {
 	background-image: url("../img/milan.jpg");
 	background-repeat: no-repeat;
   	background-attachment: fixed; 
 	background-size: cover;
-
-	height: 100%;
-}
-
-.studentBG {
-	/*background-color: #E6E6E6;*/
 
 	height: 100%;
 }
