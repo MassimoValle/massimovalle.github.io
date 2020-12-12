@@ -64,12 +64,13 @@ li {
   }
 
 .social {
-	margin-top: 5%;
-	margin-bottom: 5%;
+	
 }
 .social i{
 	color: #000000;
     font-size: 60px;
     margin-left: 5%;
-    margin-right: 5%;
+	margin-right: 5%;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
