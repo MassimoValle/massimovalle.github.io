@@ -74,3 +74,22 @@ li {
 	margin-top: 10%;
 	margin-bottom: 10%;
 }
+
+
+/* Responsive corrections */
+@media only screen and (max-width: 400px) {
+	.banner{
+		background-size: 1000px 100%;
+	}
+
+	.livingBG{
+		background-size: 1000px 100%;
+	}
+
+	.social i {
+        font-size: 45px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
