@@ -76,20 +76,20 @@ li {
 }
 
 
-/* Responsive corrections
-@media only screen and (max-width: 400px) {
+/*Responsive corrections*/
+@media only screen and (max-width: 1300px) {
+
 	.banner{
-		background-size: 1000px 100%;
+		background-position: center;
 	}
 
 	.livingBG{
-		background-size: 1000px 100%;
+		background-position: left;
+	}
+	
+	img {
+		height: 40%;
+		width: auto;
 	}
 
-	.social i {
-        font-size: 45px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-}*/
+}
