@@ -11,6 +11,11 @@ section {
 	margin-left: 4%;
 }
 
+.redBG{
+	background-color: #87191b;
+	height: 100%;
+}
+
 .whiteBG {
 	background-color: #FFFFFF;
 	height: 100%;
@@ -72,6 +77,7 @@ section {
 
 	.hello {
 		font-size: 60px;
+		font-weight: bold;
 	}
 
 }
