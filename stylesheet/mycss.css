@@ -31,9 +31,12 @@ section {
 }
 
 .hello {
-	font-size: 150px;
 	color: #FAFAFA;
 	text-align: center;
+}
+
+.hello h1{
+	font-size: 150px;
 }
 
 .horizontal-center {
@@ -75,9 +78,8 @@ section {
 		width:50px;
 	}
 
-	.hello {
+	.hello h1{
 		font-size: 60px;
-		font-weight: bold;
 	}
 
 }
