@@ -4,55 +4,35 @@ body {
 }
 
 section {
-	height: 120%;
+	height: 100%;
 }
 
-li {
+.menu li {
 	margin-left: 4%;
 }
 
-.banner {
-	background-image: url("../img/banner.jpg");
-	background-repeat: no-repeat;
-  	background-attachment: fixed; 
-	background-size: cover;
-
+.whiteBG {
+	background-color: #FFFFFF;
 	height: 100%;
 }
 
-.studentBG {
-	/*background-color: #E6E6E6;*/
-	height: 100%;
-}
-
-.student {
-	background-image: url("../img/foto.png");
-	background-repeat: no-repeat;
-	background-size: auto 100%;
-
-	height: 100%;
-}
-
-.livingBG {
-	background-image: url("../img/milan.jpg");
-	background-repeat: no-repeat;
-  	background-attachment: fixed; 
-	background-size: cover;
-
-	height: 100%;
-}
-
-.passionBG {
+.blackBG {
 	background-color: #000000;
 	height: 100%;
 }
 
-.battery {
-	background-image: url("../img/technology.png");
-	background-repeat: no-repeat;
-	background-size: auto auto;
+.favicon img{
+	width:60px;
+}
 
-	height: 100%;
+.hello {
+	font-size: 150px;
+	color: #FAFAFA;
+	text-align: center;
+}
+
+.horizontal-center {
+	text-align: center;
 }
 
 .vertical-center {
@@ -63,33 +43,35 @@ li {
 	transform: translateY(-50%);
   }
 
-.social {
-	
-}
 .social i{
 	color: #000000;
     font-size: 60px;
-    margin-left: 5%;
 	margin-right: 5%;
-	margin-top: 10%;
-	margin-bottom: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.copyright {
+	color: #848484;
+	margin-bottom: 0%;
+	margin-right: 5px;
+	float: right;
 }
 
 
 /*Responsive corrections*/
 @media only screen and (max-width: 1300px) {
 
-	.banner{
-		background-position: center;
+	section {
+		height: 120%;
 	}
 
-	.livingBG{
-		background-position: left;
+	.favicon img{
+		width:50px;
 	}
-	
-	img {
-		height: 40%;
-		width: auto;
+
+	.hello {
+		font-size: 60px;
 	}
 
 }

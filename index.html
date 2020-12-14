@@ -3,6 +3,8 @@
 
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="icon" href="img/favicon.PNG" type="image/PNG" sizes="16x16">
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -16,34 +18,13 @@
 	
 	<body>
 
-		<!-- ORIGINAL <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-			
-			<a class="navbar-brand" href="#">Navbar</a>
-		  
-			
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-			  <span class="navbar-toggler-icon"></span>
-			</button>
-		  
-			
-			<div class="collapse navbar-collapse" id="collapsibleNavbar">
-			  <ul class="navbar-nav">
-				<li class="nav-item">
-				  <a class="nav-link" href="#">Link</a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link" href="#">Link</a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link" href="#">Link</a>
-				</li>
-			  </ul>
-			</div>
-		  </nav>-->
-
 		  <nav class="navbar navbar-expand-sm bg-light navbar-light">
 			<!-- Brand -->
-			<a class="navbar-brand" href="#">massimovalle.me</a>
+			<div class="favicon">
+				<a class="navbar-brand" href="#">
+					<img src="img/favicon.PNG" alt="logo">massimovalle.me
+				</a>
+			</div>
 		  
 			<!-- Toggler/collapsibe Button -->
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -52,57 +33,34 @@
 		  
 			<!-- Navbar links -->
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
-			  <ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="#hello">Hello</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#student">Student</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#living">Based</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#passion">Passion</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#bye">Bye</a>
-				</li>
-			  </ul>
+				<div class="menu">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#hello">Hello</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#student">Student</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#passion">Passion</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#bye">Bye</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		  </nav>
-			
-		
-			<!--<nav class="navbar navbar-expand-sm bg-light navbar-light">
 
-			<a class="navbar-brand" href="#">
-				<img src="bird.jpg" alt="logo" style="width:40px;">
-			</a>
-				<ul class="navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Hello</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#student">Student</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#living">Based</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#passion">Passion</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#bye">Bye</a>
-				</li>
-				</ul>
-			</nav>-->
-
-			<section id="hello" class="banner">
+			<section id="hello" class="blackBG">
 					<div class="container-fluid">
 						<div class="row" style="height: 100%;">
 						<div class="col"></div>
 						<div class="col">
-							<h1 class="vertical-center" style="color: #FAFAFA; text-align: center;"> Hello :D</h1>
+							<div class="vertical-center">
+								<h1 class="hello">Hello :D</h1>
+							</div>
+							
 						</div>
 						</div>
 					</div>
@@ -113,45 +71,43 @@
 						<div class="container">
 							<div class="row" style="height: 100%;">
 								<div class="col">
-									<div class="vertical-center" style="text-align: center;">
-										<h1>I'm <b>Massimo Valle</b></h1>
-										<h3 style="color: #848484">CSE Student at PoliMi</h3>
+									<div class="vertical-center">
+										<div class="horizontal-center">
+											<h1>I'm <b>Massimo Valle</b></h1>
+											<h3 style="color: #848484">CSE Student at PoliMi</h3>
+										</div>
 									</div>
 								</div>
 								<div class="col">
-									<img height="100%" src="img/foto.png">
+									<div class="vertical-center">
+										<div class="horizontal-center">
+											<img height="50%" src="img/polimi.PNG">
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-					</div>
-			</section>
-			  
-			<section id="living">
-					<div class="livingBG">
-						<div class="container-fluid">
-							<div class="row" style="height: 100%;">
-							<div class="col"></div>
-							<div class="col">
-								<h1 class="vertical-center" style="text-align: center;"> Based in Milan</h1>
-							</div>
-							<div class="col"></div>
 							</div>
 						</div>
 					</div>
 			</section>
 
 			<section id="passion">
-					<div class="passionBG">
+					<div class="blackBG">
 						<div class="container">
 							<div class="row" style="height: 100%;">
 								<div class="col">
-									<div class="vertical-center" style="text-align: center;">
-										<h1 style="color: #FFFFFF"> Technology addicted</b></h1>
-										<h3 style="color: #848484">This design remember me something</h3>
+									<div class="vertical-center">
+										<div class="horizontal-center">
+											<img height="50%" src="img/macbook.PNG">
+										</div>
 									</div>
 								</div>
 								<div class="col">
-									<img height="100%" src="img/technology.png">
+									<div class="vertical-center">
+										<div class="horizontal-center">
+											<h1 style="color: #FFFFFF"> Technology addicted</b></h1>
+											<h3 style="color: #848484">This design remember me something</h3>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -164,7 +120,7 @@
 							<div class="row">
 								<div class="col" style="margin-top: 5%;">
 									<h5>TO THE READER:</h5>
-									<p style="text-align: justify;">
+									<p>
 										A few words...<br>
 										I love doing stuff, I can't stop!<br> 
 										When I learn something I immediately try to put it into practice, hence this site.<br>
@@ -172,6 +128,7 @@
 										I wonder it every day.<br>
 										I believe in determinism, free will sucks!<br>
 										Do it wrong to do it better (they said)<br>
+										Easy to play, hard to master. What is it?<br>
 										Make mistake, after all that's how things are learned.
 									</p>
 									<h1 style="text-align: center;">BE CURIOUS</h1>
@@ -187,19 +144,13 @@
 										<a href="https://www.instagram.com/massimo_valle"><i class="fab fa-instagram"></i></a>
 									</div>
 									
-										
-									<!--
-										<li><a href="https://github.com/MassimoValle">GitHub</a></li>
-										<li><a href="https://www.facebook.com/profile.php?id=100005993442650">Facebook</a></li>
-										<li></li>
-										<li><a href="https://telegram.me/max_valle">Telegram</a></li>
-									
-									-->
 								</div>
 							</div>
 						</div>
 					</div>
 			</section>
+
+			<p class="copyright">© Massimo Valle</p>
 
 	</body>
 </html>
