@@ -21,9 +21,17 @@ section {
 	height: 100%;
 }
 
+.whiteBG img {
+	height: 50%;
+}
+
 .blackBG {
 	background-color: #000000;
 	height: 100%;
+}
+
+.blackBG img {
+	height: 50%;
 }
 
 .favicon img{
@@ -71,7 +79,15 @@ section {
 	}
 
 	.hello h1{
-		font-size: 60px;
+		font-size: 90px;
+	}
+
+	.whiteBG img {
+		height: 60%;
+	}
+
+	.blackBG img {
+		height: 60%;
 	}
 
 }
@@ -87,7 +103,39 @@ section {
 	}
 
 	.hello h1{
-		font-size: 30px;
+		font-size: 40px;
+	}
+
+	.whiteBG img {
+		height: 50%;
+	}
+
+	.blackBG img {
+		height: 50%;
+	}
+
+}
+
+@media only screen and (max-width: 450px) {
+
+	section {
+		height: 120%;
+	}
+
+	.favicon img{
+		width:50px;
+	}
+
+	.hello h1{
+		font-size: 40px;
+	}
+
+	.whiteBG img {
+		height: 50%;
+	}
+
+	.blackBG img {
+		height: 50%;
 	}
 
 }
