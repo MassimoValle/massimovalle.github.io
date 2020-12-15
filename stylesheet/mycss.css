@@ -75,3 +75,19 @@ section {
 	}
 
 }
+
+@media only screen and (max-width: 750px) {
+
+	section {
+		height: 120%;
+	}
+
+	.favicon img{
+		width:50px;
+	}
+
+	.hello h1{
+		font-size: 30px;
+	}
+
+}
