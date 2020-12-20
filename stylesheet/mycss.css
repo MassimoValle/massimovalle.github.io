@@ -68,7 +68,60 @@ section {
 
 
 /*Responsive corrections*/
+@media only screen and (orientation: landscape) {
+	
+  }
+
+  @media only screen and (orientation: portrait) {
+	
+	section {
+		height: 120%;
+	}
+
+	.favicon img{
+		width:50px;
+	}
+
+	.hello h1{
+		font-size: 900%;
+	}
+
+	.whiteBG img {
+		height: 31%;
+	}
+
+	.blackBG img {
+		height: 31%;
+	}
+
+  }
+
+/*
 @media only screen and (max-width: 1500px) {
+
+	section {
+		height: 120%;
+	}
+
+	.favicon img{
+		width:50px;
+	}
+
+	.hello h1{
+		font-size: 170px;
+	}
+
+	.whiteBG img {
+		height: 30%;
+	}
+
+	.blackBG img {
+		height: 30%;
+	}
+
+}
+
+@media only screen and (max-width: 1400px) {
 
 	section {
 		height: 120%;
@@ -131,11 +184,11 @@ section {
 	}
 
 	.whiteBG img {
-		height: 30%;
+		height: 35%;
 	}
 
 	.blackBG img {
-		height: 30%;
+		height: 35%;
 	}
 
 }
@@ -210,4 +263,4 @@ section {
 		height: 50%;
 	}
 
-}
+}*/
