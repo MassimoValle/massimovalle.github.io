@@ -47,10 +47,6 @@ section {
 	font-size: 150px;
 }
 
-.horizontal-center {
-	text-align: center;
-}
-
 .social i{
 	color: #000000;
     font-size: 60px;
@@ -83,15 +79,7 @@ section {
 	}
 
 	.hello h1{
-		font-size: 900%;
-	}
-
-	.whiteBG img {
-		height: 31%;
-	}
-
-	.blackBG img {
-		height: 31%;
+		font-size: 200%;
 	}
 
   }

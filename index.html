@@ -27,6 +27,13 @@
 		<link rel="stylesheet" type="text/css" href="stylesheet/animation.css">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
+		<!-- enable popovers everywhere -->
+		<script>
+			$(function () {
+				$('[data-toggle="popover"]').popover()
+			})
+		</script>
+
 
 		<title>massimovalle.me</title>
 	</head>
@@ -54,7 +61,7 @@
 							<a class="nav-link" href="#hello">Hello</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#student">Student</a>
+							<a class="nav-link" href="#student">Me</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#passion">Passion</a>
@@ -72,7 +79,7 @@
 						<div class="row align-items-center" style="height: 100%;">
 						<div class="col"></div>
 						<div class="col">
-							<div class="vertical-center">
+							<div>
 								<div class="hello">
 									<h1 class="ml11">
 										<span class="text-wrapper">
@@ -93,13 +100,13 @@
 						<div class="container">
 							<div class="row align-items-center" style="height: 100%;">
 								<div class="col">
-									<div class="horizontal-center">
+									<div style="text-align: center;" class="row justify-content-center">
 										<h1>I'm Massimo Valle</h1>
 										<h3 style="color: #848484">CSE Student at PoliMi</h3>
 									</div>
 								</div>
 								<div class="col">
-									<div class="horizontal-center">
+									<div  class="row justify-content-center">
 										<img src="img/polimi.PNG">
 									</div>
 								</div>
@@ -113,14 +120,33 @@
 						<div class="container">
 							<div class="row align-items-center" style="height: 100%;">
 								<div class="col">
-									<div class="horizontal-center">
+									<div class="row justify-content-center">
 										<img src="img/macbook.PNG">
 									</div>
 								</div>
 								<div class="col">
-									<div class="horizontal-center">
-										<h1 style="color: #FFFFFF">Technology enthusiast</h1>
-										<h3 style="color: #848484">This design remember me something</h3>
+										<div style="text-align: center;" class="row justify-content-center">
+											<h1 style="color: #FFFFFF">Creative coding</h1>
+										</div>
+
+										<div class="row align-items-end row justify-content-center">
+											<div>
+												<button type="button" class="btn btn-outline-danger btn-lg" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Coming soon!">
+												White Rabbit's Lair
+												</button>
+												<img style="width:60px; height: 60px" src="img/white_rabbit.png">
+											</div>
+										</div>
+											
+
+											
+
+
+											<!--<a href="source/lair.html">
+												<button type="button" style="margin-top: 5%;" class="btn btn-outline-danger btn-lg">White Rabbit's Lair</button>
+												<img style="width:60px; height: 60px" src="img/white_rabbit.png">
+											</a>-->
+											
 									</div>
 								</div>
 							</div>
