@@ -44,7 +44,7 @@ section {
 }
 
 .hello h1{
-	font-size: 150px;
+	font-size: 900%;
 }
 
 .social i{
@@ -66,26 +66,9 @@ section {
 /*Responsive corrections*/
 @media only screen and (orientation: landscape) {
 	
-  }
+}
 
-  @media only screen and (orientation: portrait) {
-	
-	section {
-		height: 120%;
-	}
-
-	.favicon img{
-		width:50px;
-	}
-
-	.hello h1{
-		font-size: 200%;
-	}
-
-  }
-
-/*
-@media only screen and (max-width: 1500px) {
+@media only screen and (orientation: portrait) {
 
 	section {
 		height: 120%;
@@ -96,159 +79,7 @@ section {
 	}
 
 	.hello h1{
-		font-size: 170px;
-	}
-
-	.whiteBG img {
-		height: 30%;
-	}
-
-	.blackBG img {
-		height: 30%;
+		font-size: 250%;
 	}
 
 }
-
-@media only screen and (max-width: 1400px) {
-
-	section {
-		height: 120%;
-	}
-
-	.favicon img{
-		width:50px;
-	}
-
-	.hello h1{
-		font-size: 170px;
-	}
-
-	.whiteBG img {
-		height: 30%;
-	}
-
-	.blackBG img {
-		height: 30%;
-	}
-
-}
-
-@media only screen and (max-width: 1300px) {
-
-	section {
-		height: 120%;
-	}
-
-	.favicon img{
-		width:50px;
-	}
-
-	.hello h1{
-		font-size: 200px;
-	}
-
-	.whiteBG img {
-		height: 30%;
-	}
-
-	.blackBG img {
-		height: 30%;
-	}
-
-}
-
-@media only screen and (max-width: 1100px) {
-
-	section {
-		height: 120%;
-	}
-
-	.favicon img{
-		width:50px;
-	}
-
-	.hello h1{
-		font-size: 200px;
-	}
-
-	.whiteBG img {
-		height: 35%;
-	}
-
-	.blackBG img {
-		height: 35%;
-	}
-
-}
-
-@media only screen and (max-width: 900px) {
-
-	section {
-		height: 120%;
-	}
-
-	.favicon img{
-		width:50px;
-	}
-
-	.hello h1{
-		font-size: 130px;
-	}
-
-	.whiteBG img {
-		height: 30%;
-	}
-
-	.blackBG img {
-		height: 30%;
-	}
-
-}
-
-@media only screen and (max-width: 750px) {
-
-	section {
-		height: 120%;
-	}
-
-	.favicon img{
-		width:50px;
-	}
-
-	.hello h1{
-		font-size: 40px;
-	}
-
-	.whiteBG img {
-		height: 50%;
-	}
-
-	.blackBG img {
-		height: 50%;
-	}
-
-}
-
-@media only screen and (max-width: 450px) {
-
-	section {
-		height: 120%;
-	}
-
-	.favicon img{
-		width:50px;
-	}
-
-	.hello h1{
-		font-size: 40px;
-	}
-
-	.whiteBG img {
-		height: 50%;
-	}
-
-	.blackBG img {
-		height: 50%;
-	}
-
-}*/
