@@ -22,7 +22,7 @@ section {
 }
 
 .whiteBG img {
-	height: 50%;
+	height:60vh;
 }
 
 .blackBG {
@@ -31,7 +31,7 @@ section {
 }
 
 .blackBG img {
-	height: 50%;
+	height: 60vh;
 }
 
 .favicon img{
