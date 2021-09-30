@@ -1,0 +1,45 @@
+
+dt div {
+    margin-top: 10%;
+}
+
+section {
+	height: auto;
+}
+
+#projects h5 {
+    color: gray;
+}
+
+.redBGprojects {
+    background-color: #87191b;
+    color: #FAFAFA;
+    text-align: center;
+}
+
+.whiteBGprojects {
+    background-color: #FAFAFA;
+    color: #000000;
+    text-align: center;
+}
+
+.blackBGprojects {
+    background-color: #000000;
+    color: #FAFAFA;
+    text-align: center;
+}
+
+.social i{
+	color: #000000;
+    font-size: 60px;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.copyright {
+	color: #848484;
+	margin-bottom: 0%;
+	margin-right: 5px;
+	float: left;
+}
