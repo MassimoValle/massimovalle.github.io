@@ -1,0 +1,46 @@
+
+body {
+    text-align: center;
+}
+
+dt div {
+    margin-top: 10%;
+}
+
+a { color: inherit; } 
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+section {
+	height: auto;
+}
+
+#projects h5 {
+    color: gray;
+}
+
+#projects img {
+    filter: grayscale(100%);
+    width: 100%;
+    height: 90%;
+    border-radius: 5%;
+}
+
+.social i{
+	color: #000000;
+    font-size: 60px;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.copyright {
+	color: #848484;
+	margin-bottom: 0%;
+	margin-right: 5px;
+	float: right;
+}

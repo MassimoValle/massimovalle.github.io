@@ -14,11 +14,13 @@ section {
 .redBG{
 	background-color: #87191b;
 	height: 100%;
+	color: #FFFFFF;
 }
 
 .whiteBG {
 	background-color: #FFFFFF;
 	height: 100%;
+	color: #000000;
 }
 
 .whiteBG img {
@@ -27,7 +29,8 @@ section {
 
 .blackBG {
 	background-color: #000000;
-	height: 100%;
+	height: auto;
+	color: #FFFFFF;
 }
 
 .blackBG img {
