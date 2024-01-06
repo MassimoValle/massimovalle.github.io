@@ -2,8 +2,10 @@
 	<head>
 
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-		<link rel="icon" href="img/favicon.PNG" type="image/PNG" sizes="16x16">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Favicon -->
+		<link rel="icon" href="img/icon.png" type="image/icon type">
 
 		<!-- google font -->
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -15,7 +17,11 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 		
 		<!-- my css -->
-		<link rel="stylesheet" type="text/css" href="stylesheet/mycss.css">
+		<link rel="stylesheet" type="text/css" href="css/default.css">
+		<link rel="stylesheet" type="text/css" href="css/animation.css">
+		<link rel="stylesheet" type="text/css" href="css/about.css">
+		<link rel="stylesheet" type="text/css" href="css/interests.css">
+		<link rel="stylesheet" type="text/css" href="css/experiences.css">
 
 		<!-- navbar -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -24,7 +30,6 @@
 
 		<!-- hello animation -->
 		<script src="js/animation.js" charset="utf-8" defer></script>
-		<link rel="stylesheet" type="text/css" href="stylesheet/animation.css">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
 		<!-- enable popovers everywhere -->
@@ -35,17 +40,18 @@
 		</script>
 
 
-		<title>massimovalle.io</title>
+		<title>Massimo Valle</title>
 	</head>
 	
 	<body>
+		<!-- Bootstrap JS Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
 
 		  <nav class="navbar navbar-expand-sm bg-light navbar-light">
 			<!-- Brand -->
 			<div class="favicon">
-				<a class="navbar-brand" href="#">
-					<!--<img src="img/favicon.PNG" alt="logo">-->massimovalle.io
-				</a>
+				<a class="navbar-brand" href="#">MV</a>
 			</div>
 		  
 			<!-- Toggler/collapsibe Button -->
@@ -64,10 +70,16 @@
 							<a class="nav-link" href="#me">Me</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#stuff">Do</a>
+							<a class="nav-link" href="#about">About</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#bye">Bye</a>
+							<a class="nav-link" href="#experience">Experience</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#interests">Interests</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contacts">Contacts</a>
 						</li>
 					</ul>
 				</div>
@@ -95,78 +107,234 @@
 					</div>
 			</section>
 
-			<section id="me">
-					<div class="whiteBG">
-						<div class="container">
-							<div class="row align-items-center" style="height: 100%;">
-								<div class="col-md-6">
-									<div style="text-align: center;" class="row justify-content-center">
-										<h1>I'm Massimo Valle</h1>
+			<section id="me" class="whiteBG">
+					<div class="container">
+						<div class="row align-items-center" style="height: 100%;">
+							<div class="col-md-6">
+								<div style="text-align: center;">
+									<h1>I'm Massimo Valle</h1>
+									<h2 style="margin-top: 5%; color: #626262">CSE Student @ PoliMi</h1>
+									<h3 style="color: #848484">ICT Engineering, Business and Innovation</h3>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="row justify-content-center">
+									<img src="img/me/me.PNG">
+								</div>
+							</div>
+						</div>
+					</div>
+			</section>
+			
+			<section id="about" class="aboutBG">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col align-self-center">
+							<header>
+								<h1>About</h1>
+							</header>
+						</div>
+					</div>
+					<div style="margin-top: 10%;">
+						<div class="row align-items-center">
+								<div class="col-lg-4">
+									<div>
+										<img style="width: 100%;" src="img/about/macbook.PNG">
 									</div>
 								</div>
-								<div class="col">
-									<div class="row justify-content-center">
-										<div class="col">
-											<img src="img/me.PNG">
+								<div class="col-lg-8">
+									<div>
+										<div class="text-container">
+											<p>
+												I was born in Folgaria, a small town in northern Italy known for its ski slopes.
+												My passion in technology began at an early age, in an effort to upgrade my old scrap computer to run the newest games on it.
+											</p>
+											<p>
+												From there my passion became my study. I chose computer science as my high school major and continued this passion in university by attending my first year at the <b>University of Trento</b>.</p>
+											<p> I later applied to transfer to the <b>Polytechnic University of Milan</b> where I received both my bachelor's and master's degrees in <b>computer engineering</b>.</p>						
+										</div>
+									</div>
+									<div class="text-container">
+										<div class="row" style="margin-top: 5%;">
+											<div class="col">
+												<h5>Summary:</h5>
+												<div style="margin-top: 5%;">
+													
+													<div class="icon-container">
+														<div class="row">
+															<div class="col-lg-1">
+																<i class="fas fa-user"></i>
+															</div>
+															<div class="col-lg-11">
+																<span><b>Name:</b></span> Massimo Valle
+															</div>
+														</div>
+													</div>
+													
+													<div class="icon-container">
+														<div class="row">
+															<div class="col-lg-1">
+																<i class="fas fa-graduation-cap"></i>
+															</div>
+															<div class="col-lg-11">
+																<span><b>Degree:</b></span> Master
+															</div>
+														</div>
+													</div>
+													
+													<div class="icon-container">
+														<div class="row">
+															<div class="col-lg-1">
+																<i class="fas fa-briefcase"></i>
+															</div>
+															<div class="col-lg-11">
+																<span><b>Experience:</b></span> Junior
+															</div>
+														</div>
+													</div>
+													
+													<div class="icon-container">
+														<div class="row">
+															<div class="col-lg-1">
+																<i class="fas fa-map-marker-alt"></i>
+															</div>
+															<div class="col-lg-11">
+																<span><b>City:</b></span> Milan
+															</div>
+														</div>
+													</div>
+													
+												</div>
+											</div>
+			
+											<div class="col">
+			
+												<h5>Contact me on:</h5>
+												
+												<div class="social">
+													<a href="mailto:massimo.valle98@icloud.com"><i class="fas fa-envelope"></i></a>
+													<a href="https://github.com/MassimoValle"><i class="fab fa-github"></i></a>
+													<a href="https://www.linkedin.com/in/massimovalle98"><i class="fab fa-linkedin"></i></a>
+												</div>
+												
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+				</div>
 			</section>
 
-			<section id="stuff">
-					<div class="blackBG">
-						<div class="container">
-							<div class="row align-items-center" style="height: 100%;">
-								<div class="col">
-									<div class="row justify-content-center">
-										<img src="img/macbook.PNG">
+			<section id="experience" class="experienceBG">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col align-self-center"  style="margin-bottom: 2%;">
+
+							<header>
+								<h1>Experience</h1>
+							</header>
+							
+							<div class="row align-items-start" style="height: 100%; margin-top: 2%;">
+								
+								<div class="col-lg-6">
+									<h2>Tech related</h2>
+									<div class="work-experience">
+										<p class="job-title">Test diversity and explainable AI researcher</p>
+										<p class="company">PoliMi | Aug 2023 - Apr 2024</p>
+										<p class="description">My master's thesis actively involved me in researching alternative approaches to test and stress autonomous vehicles. The main goal was to identify the most efficient method to cause diverse errors in the autonomous driving algorithms in order to detect a significant number of potential issues. My research focused primarily on creating a method that could detect more failures than current standards.</p>
 									</div>
+
+									<div class="work-experience">
+										<p class="job-title">Data analyst</p>
+										<p class="company">PoliMi, GNV | Feb 2022 - Jul 2022</p>
+										<p class="description">As part of the Business Information Systems course, I participated in a collaborative project between Polytechnic University of Milan and the company <a href="https://www.gnv.it/it">GNV</a>. The objective was to analyze data on the most popular routes over a 5-year period, identify significant patterns, and present a comprehensive report to the company. Through this experience, I refined my skills in teamwork and writing official documentation.</p>
+									</div>
+
+									<div class="work-experience">
+										<p class="job-title">Java Software Developer</p>
+										<p class="company">Polimi Motorcycle Factory | Sep 2017 - Mar 2022</p>
+										<p class="description">During my university career, I joined the <a href="https://www.polimimotorcyclefactory.it">motorcycle racing team of PoliMi</a> dedicated to designing and developing two motorcycles for student competitions, with a particular focus on the renowned MotoStudent held every two years in Aragon, Spain. In my initial role, I developed software to capture and analyze the bikes' telemetry. Later, I assumed responsibility for coordinating the development team, leading the implementation of new features and constantly improving the program.</p>
+									</div>
+									
 								</div>
-								<div class="col">
-									<div style="text-align: center;" class="row justify-content-center">
-										<h1 style="color: #FFFFFF">CSE Student @ PoliMi</h1>
-										<h3 style="color: #848484">ICT Engineering, Business and Innovation</h3>
+								<div class="col-lg-6">
+									<h2>Casual jobs</h2>
+									<div class="work-experience">
+										<p class="job-title">Agricultural worker</p>
+										<p class="company">Comper Renato | Sep 2023</p>
+										<p class="description">During the harvest season, I served as an agricultural worker, dedicating myself to the task of harvesting grapes. Determined to put myself out there and make the most of my time after completing my exams, I chose to actively pursue this work experience.</p>
+									</div>
+
+									<div class="work-experience">
+										<p class="job-title">Agricultural worker</p>
+										<p class="company">Marzari Cesare | Aug 2023</p>
+										<p class="description">During the harvest season, I served as an agricultural worker, dedicating myself to the task of harvesting grapes. Determined to put myself out there and make the most of my time after completing my exams, I chose to actively pursue this work experience.</p>
+									</div>
+
+									<div class="work-experience">
+										<p class="job-title">Lifeguard</p>
+										<p class="company">EZ Sport | Jul 2016 - Aug 2019</p>
+										<p class="description">I worked for four years in the role of lifeguard, operating during both the summer and winter seasons. This significant experience, representing my first employment and involving constant customer contact, greatly contributed to the refinement of my interpersonal skills and taught me fundamental lessons about the meaning of the job.</p>
 									</div>
 								</div>
 							</div>
+
 						</div>
 					</div>
+				</div>
 			</section>
 
-			<section id="bye" style="height: auto;">
+			<section id="interests" class="interestsBG">
+				<div class="container">
+					<header>
+						<h1>Interests</h1>
+					</header>
+				</div>
+				<div class="image-section" style="margin-top: 1%">
+					<div class="image-container">
+						<img src="img/interests/videogames.jpg" alt="Videogames Image">
+						<div class="image-text">Videogames</div>
+					</div>
+					<div class="image-container">
+						<img src="img/interests/3dprinting.jpg" alt="3D printing Image">
+						<div class="image-text">3D printing</div>
+					</div>
+					<div class="image-container">
+						<img src="img/interests/chess.jpg" alt="Chess Image">
+						<div class="image-text">Chess</div>
+					</div>
+					<div class="image-container">
+						<img src="img/interests/f1.jpg" alt="F1 Image">
+						<div class="image-text">F1</div>
+					</div>
+					<div class="image-container">
+						<img src="img/interests/tvseries.jpg" alt="TV Series Image">
+						<div class="image-text">TV Series</div>
+					</div>
+					<div class="image-container">
+						<img src="img/interests/reading.jpg" alt="Reading Image">
+						<div class="image-text">Reading</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="contacts" style="height: auto;">
 					<div class="container">
-						<div>
-							<div class="row">
-								<div class="col" style="margin-top: 5%;">
-									<h5>To the reader:</h5>
-									<p style="margin-top: 5%;">
-										A few words...<br>
-										I love doing stuff, I can't stop!<br> 
-										Why can't the entropy of the universe be reversed?<br>
-										I wonder it every day.<br>
-										I believe in determinism, free will sucks!<br>
-										Do it wrong to do it better (they said)<br>
-										I trust the next chapter because I'm the author.<br>
-										Easy to play, hard to master. What is it?<br>
-										Make mistake, after all that's how things are learned.
-									</p>
-									<h2>BE CURIOUS</h2>
-								</div>
+						<header>
+							<h1>Contacts</h1>
+						</header>
+						<div style="margin-top: 2%;">
+							<div>
 
-								<div class="col" style="margin-top: 5%;">
-
-									<h5>I'm also on:</h5>
-									
-									<div class="social">
-										<a href="https://github.com/MassimoValle"><i class="fab fa-github"></i></a>
-										<a href="https://telegram.me/max_valle"><i class="fab fa-telegram"></i></a>
-										<a href="https://www.instagram.com/massimo_valle"><i class="fab fa-instagram"></i></a>
-										<a href="https://www.linkedin.com/in/massimo-valle-683358222"><i class="fab fa-linkedin"></i></a>
-									</div>
-									
+								<p>Your thoughts and inquiries are always welcome! Reach out via email or connect with me through my main social media channels.</p>
+								<p style="margin-top: 3%;">Looking forward to hearing from you!</p>
+								
+								<div class="contacts" style="text-align: center;">
+									<a href="mailto:massimo.valle98@icloud.com"><i class="fas fa-envelope"></i></a>
+									<a href="https://github.com/MassimoValle"><i class="fab fa-github"></i></a>
+									<a href="https://www.linkedin.com/in/massimovalle98"><i class="fab fa-linkedin"></i></a>
 								</div>
 							</div>
 						</div>

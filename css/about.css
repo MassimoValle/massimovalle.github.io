@@ -1,0 +1,14 @@
+.text-container {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.icon-container {
+    margin-bottom: 2%;
+    width: 120%;
+}
+
+.icon-container i {
+    min-width: 20px;
+    text-align: center;
+}

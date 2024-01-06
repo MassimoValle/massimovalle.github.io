@@ -1,0 +1,53 @@
+.work-experience {
+    background-color: #3e3e3e;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.work-experience div {
+    background-color: #8b8989;
+}
+
+.work-experience header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 20px;
+}
+
+.work-experience section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.work-experience h2 {
+    color: #c4c2c2;
+}
+
+.work-experience a {
+    color: #ff8b8b;
+}
+
+.job-title {
+    font-weight: bold;
+    color: #ff8b8b;
+}
+
+.company {
+    color: #eeeeee;
+}
+
+.description {
+    color: #dbdbdb;
+}
